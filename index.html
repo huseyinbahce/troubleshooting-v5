@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Ayık Band | Konveyör Bant Çözüm Rehberi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <a class="return-link" href="https://www.konveyorbant.com/" aria-label="Return to Ayık Band homepage" id="return-link">←</a>
+    <div class="brand">
+      <a href="https://www.konveyorbant.com/" class="logo-link" aria-label="Ayık Band homepage">
+        <img src="https://www.konveyorbant.com/wp-content/themes/ayik-band/assets/image/logo/logo2.svg" alt="Ayık Band" class="brand-logo">
+      </a>
+      <h1 id="page-heading">Konveyör Bant Çözüm Rehberi</h1>
+    </div>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language selection">
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn active" data-lang="tr">TR</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="conveyor-guide" class="content-section">
+      <header class="section-header">
+        <div class="section-head-left">
+          <h3 class="section-title" id="section-title">Problem → Kök Neden → Çözüm</h3>
+          <p class="section-subtitle" id="section-subtitle">Konveyörünüzde yaşadığınız problemlerin olası kök nedenlerine ve uygulanabilir çözüm adımlarına ulaşın.</p>
+          <div class="about-guide" role="note" aria-label="About this guide">
+            <span class="guide-icon" aria-hidden="true">ℹ</span>
+            <div class="guide-copy">
+              <strong id="about-label">Bu rehber hakkında:</strong> <span id="about-body">Doğru montaj ve bakım, sistem performansının temelidir. Rehberimiz, sık karşılaşılan sorunları kök neden analiziyle eşleştirerek potansiyel çözümler sunmayı amaçlar.</span>
+            </div>
+          </div>
+        </div>
+        <div class="section-head-right">
+          <div class="header-visual" aria-hidden="true">
+            <img id="header-visual-img" src="https://www.konveyorbant.com/wp-content/uploads/2025/01/444444.png" alt="Reliability illustration" loading="lazy">
+          </div>
+          <div class="legend" aria-label="Guide color legend">
+            <span class="legend-dot primary"></span><span id="legend-problem">Problem</span>
+            <span class="legend-dot secondary"></span><span id="legend-cause">Kök Neden</span>
+            <span class="legend-dot accent"></span><span id="legend-solution">Çözüm</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="guide-layout">
+        <div class="problem-column">
+          <div class="column-heading">
+            <h4 class="column-title" id="problem-column-title">Problemler</h4>
+            <p class="column-hint" id="problem-column-hint">Lütfen yaşadığınız problemi aşağıdaki listeden seçiniz.</p>
+          </div>
+          <div class="problem-slider">
+            <div id="problem-grid" class="problem-grid" aria-live="polite" tabindex="0"></div>
+            <span class="fade-edge vertical top" aria-hidden="true"></span>
+            <span class="fade-edge vertical bottom" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <div class="flow-column">
+          <h4 class="column-title" id="cause-column-title">Olası Kök Nedenler</h4>
+          <div class="flow-map">
+            <div class="problem-cloud" id="selected-problem" aria-live="polite">Lütfen başlamak için bir problem seçiniz.</div>
+            <div id="cause-clouds" class="cause-clouds"></div>
+          </div>
+        </div>
+
+        <div class="solution-column" aria-live="polite">
+          <h4 class="column-title" id="solution-column-title">Çözüm</h4>
+          <div id="solution-panel" class="solution-panel">
+            <p class="placeholder">Çözüm önerisini görmek için bir kök neden seçiniz.</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="disclaimer">
+        <h4 id="disclaimer-title">Bilgilendirme notu</h4>
+        <p id="disclaimer-body">
+          Bu rehber yalnızca bilgilendirme amaçlıdır ve mühendislik/işletme talimatı yerine geçmez. Uygulamalar ve müdahaleler, sahadaki risk değerlendirmesi, üretici talimatları ve yürürlükteki İSG mevzuatına uygun şekilde, yetkili personel tarafından planlanmalı ve yürütülmelidir. Ayık Band, bu rehberin kullanımından doğabilecek doğrudan veya dolaylı sonuçlardan sorumluluk kabul etmez.
+        </p>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
